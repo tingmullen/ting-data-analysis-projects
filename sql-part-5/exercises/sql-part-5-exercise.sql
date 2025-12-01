@@ -1,0 +1,2 @@
+CREATE TABLE Sep2025JunkDB.Ting_Mullen.Customers
+Select

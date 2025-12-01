@@ -5,3 +5,4 @@
 # Code your solution to exercises 3 and 4 here:
 
 # Code your solution to exercise 5 here
+print (10%3)

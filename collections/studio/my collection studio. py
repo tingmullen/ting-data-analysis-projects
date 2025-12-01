@@ -1,0 +1,35 @@
+#result=my_string.removeprefix(my_string[:3]) + my_string[:3]
+#print(result)
+
+number_of_letters = int(input("Enter the number of letters that will be relocated:"))
+
+if number_of_letters > len(my_string):
+    print(f"Invalid input: {number_of_letters} is larger than word. Default to 3 characters.")
+    result = my_string.removeprefix(my_string[:3]) + my_string[:3]
+else:
+    result = my_string.removeprefix(my_string[:number_of_letters]) + my_string[:number_of_letters]
+    
+print(f"The original string is {my_string} and the updated string is {result}")
+
+number_of_letters = int(input("Enter the number of letters that will be relocated:"))
+
+if number_of_letters > len(my_string):
+    print(f"Invalid input: {number_of_letters} is larger than word. Default to 3 characters.")
+    result = my_string.removeprefix(my_string[:3]) + my_string[:3]
+else:
+    result = my_string.removeprefix(my_string[:number_of_letters]) + my_string[:number_of_letters]
+    
+print(f"The original string is {my_string} and the updated string is {result}")1
+
+cargo_hold = [food_cabinet, equipment_cabinet, pets_cabinet, sleep_aids_cabinet]
+print("Cargo Hold:", cargo_hold)
+cabinet_number = int(input("Select a cabinet (0 - 3) in the cargo hold:"))
+item_name = str(input("Select an item:"))
+if cabinet_number > 3 or cabinet_number <0:
+    print(f"Invalid input.")
+else:
+    selected_cabinet = cargo_hold[cabinet_number]
+    if item_name in selected_cabinet:
+        print(f"Selected cabinet: {selected_cabinet} does contain {item_name}")
+    else:
+        print(f"Selected cabinet: {selected_cabinet} does not contain {item_name}")
