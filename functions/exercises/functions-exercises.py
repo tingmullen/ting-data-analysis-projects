@@ -9,8 +9,6 @@ def make_square(size):
    return make_rectangle(size, size)
 
 
-
-
 # Part 1 C -- Make a Rectangle
 def make_rectangle(width, height):
     line = make_line(width)
