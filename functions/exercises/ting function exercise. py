@@ -1,6 +1,0 @@
-def caculate_tax (amount):
-    return amount * 0.07
-
-def total_with_tax (amount):
-    
-    
